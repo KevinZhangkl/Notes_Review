@@ -39,3 +39,23 @@ git push -u origin master
 
 这个带有-u这个参数是指，将master分支的所有内容都提交，第一次关联之后后边你再提交就可以不用这个参数了，之后你的每一次修改，你就可以只将你修改push就好了。
 git push origin master
+
+
+
+5、git常用命令
+mkdir： XX (创建一个空目录 XX指目录名)
+pwd： 显示当前目录的路径。
+git init 把当前的目录变成可以管理的git仓库，生成隐藏.git文件。
+git add XX 把xx文件添加到暂存区去。
+git commit –m “XX” 提交文件 –m 后面的是注释。
+git status 查看仓库状态
+git diff XX 查看XX文件修改了那些内容
+git log 查看历史记录
+git reset –hard HEAD^ 或者 git reset –hard HEAD~ 回退到上一个版本
+(如果想回退到100个版本，使用git reset –hard HEAD~100 )
+
+cat XX 查看XX文件内容
+git reflog 查看历史记录的版本号id
+git checkout — XX 把XX文件在工作区的修改全部撤销。
+git rm XX 删除XX文件
+git remote add orig
