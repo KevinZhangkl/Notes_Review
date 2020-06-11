@@ -1,5 +1,6 @@
 *Introduction
-    *[简介](README.md)
+    [简介](README.md)
 
 *Courses
-    *[Theory](base.md)
+    [Theory](base.md)
+    [Academic Writing](writing.md)
